@@ -17,3 +17,26 @@ Lvl_2_secureAuthApp is a secure authentication application built with Express.js
    git clone https://github.com/yourusername/Lvl_2_secureAuthApp.git
    cd Lvl_2_secureAuthApp
 
+
+2. Install dependencies:
+
+   ```bash
+   npm i express ejs pg body-parser bcrypt
+
+3. Set up your PostgreSQL database:
+
+   - Create a database named Web Dev or update the db configuration in app.js to match your database name.
+   - Create a table named userauth with columns email (VARCHAR) and password (VARCHAR).
+
+4. Start the server:
+
+   ```bash
+   node index.js
+
+## Usage
+
+   - Home Page: GET / - Displays the home page.
+   - Login Page: GET /login - Displays the login form.
+   - Register Page: GET /register - Displays the registration form.
+   - Register User: POST /register - Submits user registration data.
+   - Login User: POST /login - Submits user login data.
