@@ -14,7 +14,7 @@ Lvl_2_secureAuthApp is a secure authentication application built with Express.js
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/Lvl_2_secureAuthApp.git
+   git clone https://github.com/Manish312002/Lvl_2_secureAuthApp.git
    cd Lvl_2_secureAuthApp
 
 
